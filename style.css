@@ -1,6 +1,9 @@
 body{
     max-width: 1920px; 
     background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 *{
     box-sizing: border-box;   
@@ -12,9 +15,9 @@ body{
     
 }
 .headof1{
-    background-image: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(img/Rectangle\ 1\ \(1\).png) ;
+    background-image: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%),linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 77.78%), url(img/Rectangle\ 1\ \(1\).png) ;
     
-    height: 1800px;
+    height: 1590px;
 }
 .headof1 .logo{
     padding-top: 58px;
@@ -76,7 +79,7 @@ color: #FFFFFF;
 
 }
 .textmain h1{
-    padding-left: 604px;
+    padding-left: 480px;
     font-size: 18px;
     color: #FFC178;
     position: absolute;
@@ -89,10 +92,10 @@ color: #FFFFFF;
     font-weight: 700;
 }
 .textmain h1 img{
-padding-right: 22px;
-position: absolute;
-padding-top: 12px;
-margin-left: -125px;
+
+position: relative;
+margin-bottom: 5px;
+
 
 }
 .textmain h2{
@@ -123,9 +126,8 @@ padding-bottom: 126px;
 }
 .textmain h4{
 position: absolute;
-width: 101px;
-height: 25px;
-padding-top: 751px;
+text-align: center;
+margin-top: 674px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
@@ -152,6 +154,7 @@ margin-left: 892px;
     padding-left: 42px;
     position: absolute;
     padding-bottom: 20px;
+    
 }
 
 .follow .text p {
@@ -207,17 +210,11 @@ margin-left: 892px;
     margin-top: 109px;
     text-transform: uppercase;
     color: #FBD784;
-    position: absolute;
+    padding-left: 1100px;
+    box-sizing: border-box;
 }
 
-.first h4::before {
-    content: "";
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 50px;
-    margin-top: 61px;
-    margin-left: 1100px;
-}
+
 
 .first h1 {
     font-family: 'Open Sans';
@@ -583,9 +580,12 @@ height: 720px;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
         border: none;
-        font-size: 12px;
-        padding: 24px 0px;
+        font-size: 14px;
+        padding: 21px 0px;
         width: 60%;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
         float: left;
         background-color: black;
         border-bottom: 1px solid rgb(185, 181, 181);
@@ -596,10 +596,12 @@ height: 720px;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
+        box-sizing: border-box;
         font-size: 15px;
         line-height: 20px;
         letter-spacing: -0.204545px;
         color: #9c9696;
+        
         padding-left: 10px;
     }
     
